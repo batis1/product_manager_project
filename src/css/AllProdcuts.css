@@ -1,0 +1,177 @@
+{
+    -fx-primary : #2A2E37;
+    -fx-secondary : #FFFF8D;
+    -fx-primarytext : #B2B2B2;
+    -fx-textColor: white;
+}
+.PaneColor{
+     -fx-background-color: -fx-primary ;
+}
+.button{
+       -fx-text-fill: white;
+       -fx-background-color: gray;
+       /*-fx-border-color: -fx-secondary;*/
+       -fx-border-radius: 20px;
+       -fx-background-radius: 20px;
+       -fx-padding: 10px 20px;
+       -fx-font-size: 14px;
+       -fx-font-weight: bold;
+       -fx-cursor: hand;
+}
+.button:hover, .button:focused{
+    -fx-border-color: -fx-secondary;
+    -fx-background-color: #fcfc4e;
+    -fx-text-fill: -fx-primary;
+}
+.button:pressed{
+    -fx-scale-y: 0.9;
+    -fx-scale-x: 0.9;
+}
+.soldListsBtn{
+     -fx-text-fill: white;
+           -fx-background-color: gray;
+           /*-fx-border-color: -fx-secondary;*/
+           -fx-border-radius: 20px;
+           -fx-background-radius: 20px;
+           -fx-padding: 16px 20px;
+           -fx-font-size: 14px;
+           -fx-font-weight: bold;
+           -fx-cursor: hand;
+}
+.soldListsBtn:hover, .soldListsBtn:focused{
+    -fx-border-color: -fx-secondary;
+    -fx-background-color: #fcfc4e;
+    -fx-text-fill: -fx-primary;
+}
+.soldListsBtn:pressed{
+    -fx-scale-y: 0.9;
+    -fx-scale-x: 0.9;
+}
+
+.LabelTextColor{
+     -fx-text-fill: -fx-textColor;
+     -fx-text-weight: bold;
+}
+.Field1{
+    -fx-background-color:  gray ;
+    -fx-border-radius: 15px;
+    -fx-background-radius: 15px;
+    -fx-font-size: 13px;
+    -fx-padding: 10px 45px;
+    -fx-text-fill: black;
+    -fx-font-weight: bold;
+    -fx-cursor: hand;
+}
+.Field2{
+    -fx-background-color:  white ;
+    -fx-border-radius: 15px;
+    -fx-background-radius: 15px;
+    -fx-font-size: 13px;
+    -fx-padding: 10px 45px;
+    -fx-text-fill: black;
+    -fx-font-weight: bold;
+    -fx-cursor: hand;
+}
+.searchField{
+
+    -fx-background-color: gray ;
+    -fx-border-radius: 20px;
+    -fx-background-radius: 20px;
+    -fx-font-size: 15px;
+    -fx-padding: 12px 50px;
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+    -fx-cursor: hand;
+
+}
+.datePicker{
+
+       -fx-background-color: white ;
+        -fx-border-radius: 20px;
+        -fx-background-radius: 20px;
+       -fx-font-size: 13px;
+        -fx-padding: 6px 25px;
+       -fx-text-fill: black;
+        -fx-font-weight: bold;
+        -fx-cursor: hand;
+}
+/*.productImage{
+    -fx-text-fill: -fx-textColor;
+}*/
+
+.table-view .table-cell{
+   -fx-border-color: gray;
+   -fx-padding: 2 0 2 10px;
+   -fx-text-background-color: white;
+
+}
+.table-row-cell: hover {
+     -fx-border-color: yellow;
+    -fx-background-color: red;
+    -fx-text-color: yellow;
+}
+.table-row-cell: odd{
+    -fx-background-color: -fx-primary;
+    -fx-background-insets: 0, 0 0 1 0;
+    -fx-padding: 0.0em;
+}
+.table-row-cell: even{
+
+    -fx-background-color:  -fx-primary;
+    -fx-background-insets: 0, 0 0 1 0;
+    -fx-padding: 0.0em;
+}
+
+.table-row-cell: selected{
+
+    -fx-background-color:  gray;
+
+}
+.table-view .virtual-flow .scroll-bar .increment-button,
+.table-view .virtual-flow .scroll-bar .decrement-button {
+    -fx-opacity: 0;
+    -fx-padding: 2;
+}
+.table-view .virtual-flow .scroll-bar:vertical .thumb{
+    -fx-background-color:  linear-gradient(to bottom, white, red);
+}
+.table-view .virtual-flow .scroll-bar:horizontal .thumb {
+    -fx-background-color:  linear-gradient(to right, red, yellow);
+}
+.table-row-cell: highlighted {
+
+     -fx-background-color: yellow;
+      -fx-text-background-color: yellow;
+    -fx-background-radius: 15px;
+}
+/*.table-view-place-holder{
+    -fx-background-color: linear-gradient(from 50px 14px to 50px 40px , repeat, #232A2D 49% , #3D4549 12%);
+    -fx-border-width: 0px 1px 0px 0px;
+    -fx-border-color: linear-gradient(from 50px 14px to 50px 40px , repeat, #3D4549 49% , #232A2D 12%);
+}
+*/
+.descTA {
+    -fx-background-insets: 0;
+    -fx-text-fill: white;
+     -fx-font-size: 18px;
+}
+.descTA .content {
+    -fx-background-color: -fx-primary;
+
+}
+.descTA:focused .content {
+    -fx-background-color: gray;
+}
+.descTA:focused {
+    -fx-highlight-fill: blue;
+}
+.descTA .content {
+    -fx-padding: 10px;
+    -fx-text-fill: white;
+    -fx-highlight-fill: blue;
+}
+.noteForExit{
+     -fx-fill: FIREBRICK;
+     -fx-font-weight: bold;
+     -fx-font-size: 20px;
+}

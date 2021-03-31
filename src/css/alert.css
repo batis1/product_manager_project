@@ -1,0 +1,56 @@
+{
+    -fx-primary : #2A2E37;
+    -fx-secondary : #FFFF8D;
+    -fx-primarytext : #B2B2B2;
+    -fx-textColor: white;
+}
+.dialog-pane{
+  -fx-border-color:-fx-primary;
+  -fx-border-width:2.0px;
+ }
+
+/**Costumization of The Bar where the buttons are located**/
+.dialog-pane > .button-bar > .container {
+  -fx-background-color:-fx-primary;
+}
+
+.dialog-pane > .content.label {
+   -fx-padding: 0.5em 0.5em 0.5em 0.5em;
+   -fx-background-color: -fx-primary;
+   -fx-text-fill:white;
+   -fx-font-size:15.0px;
+}
+
+/**Costumization of DialogPane Header**/
+.dialog-pane:header .header-panel {
+  -fx-background-color: -fx-primary;
+}
+
+.dialog-pane:header .header-panel .label{
+  -fx-background-color: -fx-primary ;
+  -fx-background-radius:10px;
+  -fx-text-fill:white;
+  -fx-font-size:15.0px;
+}
+
+
+/**Costumization of Buttons**/
+.dialog-pane .button{
+   -fx-text-fill: white;
+          -fx-background-color: gray;
+          /*-fx-border-color: -fx-secondary;*/
+          -fx-border-radius: 20px;
+          -fx-background-radius: 20px;
+          -fx-padding: 10px 20px;
+          -fx-font-size: 14px;
+          -fx-font-weight: bold;
+   -fx-wrap-text: true;
+  /* -fx-effect: dropshadow( three-pass-box, yellow, 10.0, 0.0, 0.0, 0.0);*/
+   -fx-cursor:hand;
+ }
+
+.dialog-pane .button:hover{
+  -fx-background-color:white;
+  -fx-text-fill:black;
+  -fx-font-weight:bold;
+ }
